@@ -12,7 +12,7 @@ $('.arrow').on('click', function () {
 
 
     setTimeout(function () {
-        let duration = 5000; // 5 seconds
+        let duration = 3000; // 5 seconds
         $('.arrow__fill').stop().animate(
             { scaleX: 1 }, { //stop when the scale reaches 1
             duration: duration,
