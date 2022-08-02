@@ -33,8 +33,7 @@ $('.nav_link').on('click', () => {
  * style.setProperty : css 속성 재할당
  * offsetHeight : 요소의 높이
  */
-let index = 0,
-interval = 2000;
+
 
 const rand = (min, max) => 
   Math.floor(Math.random() * (max - min + 1)) + min;
@@ -51,7 +50,7 @@ for(const star of document.getElementsByClassName("animation-star")) {
   setTimeout(() => {
     animate(star);
     setInterval(() => animate(star), 2000);
-  }, index++ * (interval / 3))
+  },  2000/3)
 }
 
 
