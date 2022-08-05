@@ -87,7 +87,7 @@ $(window).on('scroll', function () {
 
 function move() {
   for (let i = 0; i < bar_color.length; i++) {
-    let persent_arr = [80, 80,70,60, 50, 50, 50, 60];
+    let persent_arr = [80, 80,70,50, 40, 50, 50, 60];
     let width = 0;
     let id = setInterval(frame, 15);
     function frame() {
